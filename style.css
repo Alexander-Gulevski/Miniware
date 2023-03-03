@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: 'VT323', monospace;  
+}
+p{  
+  font-size: 40px;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container {
+  width: fit-content;
+  align-content: center;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 660px;
+  width: 100%;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #fff9db;
+  border: 10px solid;
+  border-color: #dcd6bc;
+  box-sizing: border-box;
+}
+.stopwatch{
+  display: flex;
+  max-width: 100px;
+  width: 100%;
+  color: #ff0000;
+}
+div {
+  font-size: 25px;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(16, 40px);
+  grid-template-rows: repeat(16, 40px);
+  flex-wrap: wrap;
+  background-color: #dcd6bc;
+  margin-left: 50px;
+  border: 10.05px solid #dcd6bc;
+  margin-bottom: 10px;
+}
+.valid {
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  box-sizing: border-box;
+}
+
+.checked {
+  border: 2px solid;
+  background-color: #cecab7;
+  border-color: #9c998d;
+  box-sizing: border-box;
+}
+
+.bomb {
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  box-sizing: border-box;
+}
+
+.one {
+  color: #e76346;
+}
+
+.two {
+  color: #4199d3;
+}
+
+.three {
+  color: #57da59;
+}
+
+.four{
+  color: #bb41d3;
+}
+
+#result {
+  color: #e76346;
+}
+#flags-left {
+  font-size: 40px;
+}

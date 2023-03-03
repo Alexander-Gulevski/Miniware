@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Сапер</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <script src="app.js" charset="utf-8"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">   
+    <div class="header">
+      <div class="timer stopwatch">        
+        <p>0</p>        
+        <p id="minutTimer">40</p>
+      </div>
+      <div>🚩:<span id='flags-left'></span></div>
+      <!-- we can use the usual form to start the game again -->
+      <button id="result" onclick="location.reload(); return false;">🙂</button>
+      <div class="stopwatch">        
+        <p id="minutStopwatch">0</p>
+        <p>:</p>
+        <p id="secondStopwatch">0</p>
+      </div>
+    </div> 
+    <div class="grid"></div>
+  </div>
+  
+</body>
+</html>
